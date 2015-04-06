@@ -1,0 +1,26 @@
+App Engine project to generate geometric SVG patterns!
+
+Walkthrough:
+
+http://blog.sandeepdinesh.com/2015/03/web-developers-guide-to-go-and-app.html
+
+Prerequisites:
+
+1) App Engine SDK for Go (requires Python)
+	-https://cloud.google.com/appengine/downloads
+3) Go SDK
+	-https://golang.org/dl/
+
+Instructions:
+
+1) run `go get` to install dependencies
+2) run `goapp serve` to locally run your application
+3) Change the application in app.yaml to your Project ID
+	-Please refer to the blog post to learn how to create a project in Google Cloud Platform
+4) Deploy your app to the internet! Use `goapp deploy` to deploy!
+
+
+Special Thanks:
+
+@pravj for porting geoPattern to Go and accepting my pull request
+@campoy for reviewing
